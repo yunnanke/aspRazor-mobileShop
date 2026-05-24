@@ -1,0 +1,91 @@
+@model AdminUsersPageViewModel
+@{
+    ViewData["Title"] = "Учётные записи";
+}
+
+<h1 class="page-title">Управление учётными записями</h1>
+
+@* <div class="row g-4">
+    <div class="col-xl-5">
+        <div class="card shadow-sm">
+            <div class="card-header bg-white"><h2 class="h5 mb-0">Создать учётную запись</h2></div>
+            <div class="card-body">
+                <form method="post" action="/Admin/Users/Create">
+                    @Html.AntiForgeryToken()
+                    <div class="row g-3">
+                        <div class="col-md-6">
+                            <label asp-for="CreateUserForm.EmployeeId" class="form-label"></label>
+                            <input asp-for="CreateUserForm.EmployeeId" class="form-control" />
+                        </div>
+                        <div class="col-md-6">
+                            <label asp-for="CreateUserForm.ClientId" class="form-label"></label>
+                            <input asp-for="CreateUserForm.ClientId" class="form-control" />
+                        </div>
+                        <div class="col-12">
+                            <label asp-for="CreateUserForm.Login" class="form-label"></label>
+                            <input asp-for="CreateUserForm.Login" class="form-control" />
+                        </div>
+                        <div class="col-12">
+                            <label asp-for="CreateUserForm.Password" class="form-label"></label>
+                            <input asp-for="CreateUserForm.Password" class="form-control" />
+                        </div>
+                        <div class="col-12">
+                            <label asp-for="CreateUserForm.Role" class="form-label"></label>
+                            <select asp-for="CreateUserForm.Role" class="form-select">
+                                <option value="клиент">клиент</option>
+                                <option value="консультант">консультант</option>
+                                <option value="администратор">администратор</option>
+                            </select>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">Создать</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div> *@
+    <div class="col-xl-7">
+        <div class="card shadow-sm">
+            <div class="table-responsive">
+                <table class="table table-striped align-middle mb-0">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Логин</th>
+                            <th>Роль</th>
+                            <th>Владелец</th>
+                            <th>Активна</th>
+                            <th>Последний вход</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Accounts)
+                        {
+                            <tr>
+                                <td>@item.AccountId</td>
+                                <td>@item.Login</td>
+                                <td>@item.Role</td>
+                                <td>@item.OwnerName</td>
+                                <td>@(item.IsActive ? "Да" : "Нет")</td>
+                                <td>@item.LastLoginAt?.ToString("dd.MM.yyyy HH:mm")</td>
+                                <td class="text-end">
+                                    <form method="post" action="/Admin/Users/ToggleActive/@item.AccountId" class="d-inline">
+                                        @Html.AntiForgeryToken()
+                                        <button type="submit" class="btn btn-sm btn-outline-warning">Блок/разблок</button>
+                                    </form>
+                                    <form method="post" action="/Admin/Users/ResetPassword/@item.AccountId" class="d-inline-flex gap-2">
+                                        @Html.AntiForgeryToken()
+                                        <input name="newPassword" class="form-control form-control-sm" placeholder="Новый пароль" />
+                                        <button type="submit" class="btn btn-sm btn-outline-primary">Сброс</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

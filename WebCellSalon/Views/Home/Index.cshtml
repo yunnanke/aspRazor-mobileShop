@@ -1,0 +1,69 @@
+@model HomeIndexViewModel
+@{
+    ViewData["Title"] = "Витрина";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h1 class="page-title mb-1">Витрина салона сотовой связи</h1>
+        <p class="text-muted mb-0">Товары и актуальные тарифы доступны без авторизации.</p>
+    </div>
+</div>
+
+<div class="row g-4">
+    <div class="col-12 col-xl-8">
+        <div class="card shadow-sm">
+            <div class="card-header bg-white">
+                <h2 class="h5 mb-0">Товары</h2>
+            </div>
+            <div class="card-body">
+                <div class="row g-3">
+                    @foreach (var item in Model.Devices)
+                    {
+                        <div class="col-md-6">
+                            <div class="card border h-100 device-card">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between gap-3">
+                                        <div>
+                                            <div class="text-muted small">@item.ManufacturerName / @item.CategoryName</div>
+                                            <h3 class="h6 mt-1">@item.Model</h3>
+                                        </div>
+                                        <span class="badge @(item.StockBalance > 0 ? "bg-success" : "bg-secondary")">Остаток: @item.StockBalance</span>
+                                    </div>
+                                    <p class="small text-muted mt-2 text-pre-wrap">@item.Specifications</p>
+                                    <div class="fw-semibold fs-5">@item.RetailPrice.ToString("N2") ₽</div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12 col-xl-4">
+        <div class="card shadow-sm">
+            <div class="card-header bg-white">
+                <h2 class="h5 mb-0">Тарифные планы</h2>
+            </div>
+            <div class="list-group list-group-flush">
+                @foreach (var tariff in Model.Tariffs)
+                {
+                    <div class="list-group-item">
+                        <div class="d-flex justify-content-between gap-3">
+                            <div>
+                                <div class="fw-semibold">@tariff.Name</div>
+                                <div class="small text-muted">@tariff.OperatorName</div>
+                                <div class="small mt-1">@tariff.Description</div>
+                            </div>
+                            <div class="text-end">
+                                <div class="fw-semibold">@tariff.MonthlyFee.ToString("N2") ₽</div>
+                                <div class="small text-muted">@tariff.IncludedMinutes мин.</div>
+                                <div class="small text-muted">@tariff.IncludedInternetGb ГБ</div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+@model CloseRepairViewModel
+@{
+    ViewData["Title"] = "Закрытие ремонта";
+}
+
+<h1 class="page-title">Закрытие ремонта</h1>
+<div class="card shadow-sm">
+    <div class="card-body">
+        <p class="text-muted">@Model.RepairTitle</p>
+        <form method="post">
+            @Html.AntiForgeryToken()
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <label asp-for="FinalCost" class="form-label"></label>
+                    <input asp-for="FinalCost" class="form-control" />
+                </div>
+                <div class="col-12">
+                    <label asp-for="Notes" class="form-label"></label>
+                    <textarea asp-for="Notes" class="form-control" rows="4"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-success">Закрыть ремонт</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

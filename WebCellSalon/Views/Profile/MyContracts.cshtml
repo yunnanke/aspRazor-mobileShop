@@ -1,0 +1,31 @@
+@model List<CustomerOwnContractView>
+@{
+    ViewData["Title"] = "Мои договоры";
+}
+
+<h1 class="page-title">Мои договоры</h1>
+<div class="card shadow-sm">
+    <div class="table-responsive">
+        <table class="table table-striped align-middle mb-0">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Тип</th>
+                    <th>Дата начала</th>
+                    <th>Дата окончания</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.ContractId</td>
+                        <td>@item.ContractType</td>
+                        <td>@item.StartDate.ToString("dd.MM.yyyy")</td>
+                        <td>@item.EndDate?.ToString("dd.MM.yyyy")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

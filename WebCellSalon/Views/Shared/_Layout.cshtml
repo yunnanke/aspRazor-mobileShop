@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Салон сотовой связи</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body class="bg-light">
+    <header class="border-bottom bg-white shadow-sm">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand fw-semibold" asp-controller="Home" asp-action="Index">Салон связи</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="Index">Витрина</a></li>
+
+                        @if (User.IsInRole("клиент"))
+                        {
+                            <li class="nav-item"><a class="nav-link" href="/Profile">Профиль</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/MyContracts">Договоры</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/MyRepairs">Ремонты</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/MyPurchases">Покупки</a></li>
+                        }
+
+                        @if (User.IsInRole("консультант") || User.IsInRole("администратор"))
+                        {
+                            <li class="nav-item"><a class="nav-link" href="/RegisterSale">Продажа</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/RegisterContract">Договор + SIM</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/RegisterRepair">Ремонт</a></li>
+                        }
+
+                        @if (User.IsInRole("администратор"))
+                        {
+                            <li class="nav-item"><a class="nav-link" href="/Employees">Сотрудники</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/EmployeeStats">Статистика</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/Admin/Users">Учётные записи</a></li>
+                        }
+                    </ul>
+
+                    <div class="d-flex align-items-center gap-2">
+                        @if (User.Identity?.IsAuthenticated == true)
+                        {
+                            <span class="text-muted small">@User.FindFirst("DisplayName")?.Value</span>
+                            <form asp-controller="Account" asp-action="Logout" method="post">
+                                @Html.AntiForgeryToken()
+                                <button type="submit" class="btn btn-outline-secondary btn-sm">Выйти</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <a href="/Login" class="btn btn-primary btn-sm">Войти</a>
+                        }
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container py-4">
+        @if (TempData["SuccessMessage"] is string successMessage)
+        {
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                @successMessage
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        }
+
+        @if (TempData["ErrorMessage"] is string errorMessage)
+        {
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                @errorMessage
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            </div>
+        }
+
+        @RenderBody()
+    </main>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

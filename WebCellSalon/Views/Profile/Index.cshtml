@@ -1,0 +1,69 @@
+@model ProfilePageViewModel
+@{
+    ViewData["Title"] = "Профиль";
+}
+
+<h1 class="page-title">Профиль клиента</h1>
+
+<div class="row g-4">
+    <div class="col-lg-6">
+        <div class="card shadow-sm">
+            <div class="card-header bg-white"><h2 class="h5 mb-0">Основная информация</h2></div>
+            <div class="card-body">
+                <dl class="row mb-0">
+                    <dt class="col-sm-4">ФИО</dt>
+                    <dd class="col-sm-8">@Model.Customer?.FullName</dd>
+                    <dt class="col-sm-4">Телефон</dt>
+                    <dd class="col-sm-8">@Model.Customer?.Phone</dd>
+                    <dt class="col-sm-4">Email</dt>
+                    <dd class="col-sm-8">@Model.Customer?.Email</dd>
+                    <dt class="col-sm-4">Дата регистрации</dt>
+                    <dd class="col-sm-8">@Model.Customer?.RegistrationDate.ToString("dd.MM.yyyy")</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="card shadow-sm">
+            <div class="card-header bg-white"><h2 class="h5 mb-0">Бонусная программа</h2></div>
+            <div class="card-body">
+                <div class="mb-2"><strong>Баллы:</strong> @Model.Bonus?.Points</div>
+                <div class="mb-2"><strong>Уровень:</strong> @Model.Bonus?.Level</div>
+                <div class="mb-2"><strong>Последнее начисление:</strong> @Model.Bonus?.LastAccrualDate?.ToString("dd.MM.yyyy")</div>
+                <div><strong>Активных договоров:</strong> @Model.ActiveContractsCount</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card shadow-sm mt-4">
+    <div class="card-header bg-white"><h2 class="h5 mb-0">Создать обращение</h2></div>
+    <div class="card-body">
+        <form method="post" action="/Profile/CreateTicket">
+            @Html.AntiForgeryToken()
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <label asp-for="TicketForm.DeviceId" class="form-label"></label>
+                    <select asp-for="TicketForm.DeviceId" asp-items="Model.DeviceOptions" class="form-select">
+                        <option value="">Не выбрано</option>
+                    </select>
+                    <span asp-validation-for="TicketForm.DeviceId" class="text-danger"></span>
+                </div>
+                <div class="col-md-8">
+                    <label asp-for="TicketForm.Subject" class="form-label"></label>
+                    <input asp-for="TicketForm.Subject" class="form-control" />
+                    <span asp-validation-for="TicketForm.Subject" class="text-danger"></span>
+                </div>
+                <div class="col-12">
+                    <label asp-for="TicketForm.Description" class="form-label"></label>
+                    <textarea asp-for="TicketForm.Description" class="form-control" rows="4"></textarea>
+                    <span asp-validation-for="TicketForm.Description" class="text-danger"></span>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Создать обращение</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

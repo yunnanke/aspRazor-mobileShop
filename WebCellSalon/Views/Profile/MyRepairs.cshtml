@@ -1,0 +1,35 @@
+@model List<CustomerOwnRepairView>
+@{
+    ViewData["Title"] = "Мои ремонты";
+}
+
+<h1 class="page-title">Мои ремонты</h1>
+<div class="card shadow-sm">
+    <div class="table-responsive">
+        <table class="table table-striped align-middle mb-0">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Серийный номер</th>
+                    <th>Неисправность</th>
+                    <th>Статус</th>
+                    <th>Дата приёма</th>
+                    <th>Стоимость</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.RepairId</td>
+                        <td>@item.SerialNumber</td>
+                        <td>@item.FaultType</td>
+                        <td>@item.Status</td>
+                        <td>@item.AcceptanceDate.ToString("dd.MM.yyyy")</td>
+                        <td>@item.RepairCost?.ToString("N2")</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

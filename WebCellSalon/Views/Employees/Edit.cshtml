@@ -1,0 +1,52 @@
+@model EmployeeEditViewModel
+@{
+    ViewData["Title"] = Model.Id.HasValue ? "Редактирование сотрудника" : "Новый сотрудник";
+}
+
+<h1 class="page-title">@ViewData["Title"]</h1>
+<div class="card shadow-sm">
+    <div class="card-body">
+        <form method="post">
+            @Html.AntiForgeryToken()
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <label asp-for="LastName" class="form-label"></label>
+                    <input asp-for="LastName" class="form-control" />
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="FirstName" class="form-label"></label>
+                    <input asp-for="FirstName" class="form-control" />
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="MiddleName" class="form-label"></label>
+                    <input asp-for="MiddleName" class="form-control" />
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="Phone" class="form-label"></label>
+                    <input asp-for="Phone" class="form-control" />
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="Email" class="form-label"></label>
+                    <input asp-for="Email" class="form-control" />
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="PositionId" class="form-label"></label>
+                    <select asp-for="PositionId" asp-items="Model.PositionOptions" class="form-select"></select>
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="HireDate" class="form-label"></label>
+                    <input asp-for="HireDate" class="form-control" />
+                </div>
+                <div class="col-md-4">
+                    <label asp-for="Salary" class="form-label"></label>
+                    <input asp-for="Salary" class="form-control" />
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Сохранить</button>
+                    <a href="/Employees" class="btn btn-outline-secondary">Назад</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

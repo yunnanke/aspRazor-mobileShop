@@ -1,0 +1,45 @@
+@model RegisterRepairViewModel
+@{
+    ViewData["Title"] = "Регистрация ремонта";
+}
+
+<h1 class="page-title">Регистрация ремонта</h1>
+<div class="card shadow-sm">
+    <div class="card-body">
+        <form method="post">
+            @Html.AntiForgeryToken()
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label asp-for="ClientId" class="form-label"></label>
+                    <select asp-for="ClientId" asp-items="Model.ClientOptions" class="form-select"></select>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="DeviceId" class="form-label"></label>
+                    <select asp-for="DeviceId" asp-items="Model.DeviceOptions" class="form-select">
+                        <option value="">Не выбрано</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="SerialNumber" class="form-label"></label>
+                    <input asp-for="SerialNumber" class="form-control" />
+                </div>
+                <div class="col-md-6">
+                    <label asp-for="FaultType" class="form-label"></label>
+                    <input asp-for="FaultType" class="form-control" />
+                </div>
+                <div class="col-12">
+                    <label asp-for="ProblemDescription" class="form-label"></label>
+                    <textarea asp-for="ProblemDescription" class="form-control" rows="3"></textarea>
+                </div>
+                <div class="col-12">
+                    <label asp-for="Notes" class="form-label"></label>
+                    <textarea asp-for="Notes" class="form-control" rows="2"></textarea>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Зарегистрировать ремонт</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

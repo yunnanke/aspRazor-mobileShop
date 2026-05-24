@@ -1,0 +1,55 @@
+@model EmployeeStatsPageViewModel
+@{
+    ViewData["Title"] = "Статистика сотрудников";
+}
+
+<h1 class="page-title">Статистика сотрудников</h1>
+
+<div class="row g-3 mb-4">
+    <div class="col-md-6">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <div class="text-muted small">Продажи за текущий месяц</div>
+                <div class="fs-3 fw-semibold">@Model.CurrentMonthSalesAmount.ToString("N2") ₽</div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <div class="text-muted small">Закупки за текущий месяц</div>
+                <div class="fs-3 fw-semibold">@Model.CurrentMonthPurchasesAmount.ToString("N2") ₽</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card shadow-sm">
+    <div class="table-responsive">
+        <table class="table table-striped align-middle mb-0">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>ФИО</th>
+                    <th>Должность</th>
+                    <th>Продажи</th>
+                    <th>Ремонты</th>
+                    <th>Зарплата</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Items)
+                {
+                    <tr>
+                        <td>@item.EmployeeId</td>
+                        <td>@item.FullName</td>
+                        <td>@item.PositionName</td>
+                        <td>@item.SalesCount</td>
+                        <td>@item.RepairsCount</td>
+                        <td>@item.Salary.ToString("N2") ₽</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

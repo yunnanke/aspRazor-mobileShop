@@ -1,0 +1,35 @@
+@model List<CustomerPurchaseView>
+@{
+    ViewData["Title"] = "Мои покупки";
+}
+
+<h1 class="page-title">Мои покупки</h1>
+<div class="card shadow-sm">
+    <div class="table-responsive">
+        <table class="table table-striped align-middle mb-0">
+            <thead>
+                <tr>
+                    <th>Продажа</th>
+                    <th>Дата</th>
+                    <th>Устройство</th>
+                    <th>Серийный номер</th>
+                    <th>Цена</th>
+                    <th>Продавец</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.SaleId</td>
+                        <td>@item.SaleDate.ToString("dd.MM.yyyy")</td>
+                        <td>@item.Model</td>
+                        <td>@item.SerialNumber</td>
+                        <td>@item.RetailPrice.ToString("N2") ₽</td>
+                        <td>@item.SellerName</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

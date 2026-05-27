@@ -110,7 +110,6 @@ C:\Users\matve\OneDrive\Desktop\веб-кп\WebCellSalon\obj\Debug\net10.0\rjsmc
 C:\Users\matve\OneDrive\Desktop\веб-кп\WebCellSalon\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\matve\OneDrive\Desktop\веб-кп\WebCellSalon\obj\Debug\net10.0\scopedcss\bundle\WebCellSalon.styles.css
 C:\Users\matve\OneDrive\Desktop\веб-кп\WebCellSalon\obj\Debug\net10.0\scopedcss\projectbundle\WebCellSalon.bundle.scp.css
-C:\Users\matve\OneDrive\Desktop\веб-кп\WebCellSalon\obj\Debug\net10.0\compressed\ld1gc2qd1m-{0}-jf7dnnh7l8-jf7dnnh7l8.gz
 C:\Users\matve\OneDrive\Desktop\веб-кп\WebCellSalon\obj\Debug\net10.0\compressed\t44s2t48rb-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\matve\OneDrive\Desktop\веб-кп\WebCellSalon\obj\Debug\net10.0\compressed\of7puyswx2-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\matve\OneDrive\Desktop\веб-кп\WebCellSalon\obj\Debug\net10.0\compressed\dinw2e4ch3-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -186,3 +185,5 @@ C:\Users\matve\OneDrive\Desktop\веб-кп\WebCellSalon\obj\Debug\net10.0\WebCe
 C:\Users\matve\OneDrive\Desktop\веб-кп\WebCellSalon\obj\Debug\net10.0\WebCellSalon.genruntimeconfig.cache
 C:\Users\matve\OneDrive\Desktop\веб-кп\WebCellSalon\obj\Debug\net10.0\ref\WebCellSalon.dll
 C:\Users\matve\OneDrive\Desktop\веб-кп\WebCellSalon\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\matve\OneDrive\Desktop\веб-кп\WebCellSalon\obj\Debug\net10.0\WebCellSalon.sourcelink.json
+C:\Users\matve\OneDrive\Desktop\веб-кп\WebCellSalon\obj\Debug\net10.0\compressed\ld1gc2qd1m-{0}-bdmzv6rbot-bdmzv6rbot.gz

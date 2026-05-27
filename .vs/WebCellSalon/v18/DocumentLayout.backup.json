@@ -3,60 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|c:\\users\\matve\\onedrive\\desktop\\\u0432\u0435\u0431-\u043A\u043F\\webcellsalon\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|solutionrelative:webcellsalon\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|c:\\users\\matve\\onedrive\\desktop\\\u0432\u0435\u0431-\u043A\u043F\\webcellsalon\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|solutionrelative:webcellsalon\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|c:\\users\\matve\\onedrive\\desktop\\\u0432\u0435\u0431-\u043A\u043F\\webcellsalon\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|solutionrelative:webcellsalon\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|c:\\users\\matve\\onedrive\\desktop\\\u0432\u0435\u0431-\u043A\u043F\\webcellsalon\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|solutionrelative:webcellsalon\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|c:\\users\\matve\\onedrive\\desktop\\\u0432\u0435\u0431-\u043A\u043F\\webcellsalon\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|solutionrelative:webcellsalon\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|c:\\users\\matve\\onedrive\\desktop\\\u0432\u0435\u0431-\u043A\u043F\\webcellsalon\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|solutionrelative:webcellsalon\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|c:\\users\\matve\\onedrive\\desktop\\\u0432\u0435\u0431-\u043A\u043F\\webcellsalon\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|solutionrelative:webcellsalon\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|c:\\users\\matve\\onedrive\\desktop\\\u0432\u0435\u0431-\u043A\u043F\\webcellsalon\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|solutionrelative:webcellsalon\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|c:\\users\\matve\\onedrive\\desktop\\\u0432\u0435\u0431-\u043A\u043F\\webcellsalon\\models\\pageviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|solutionrelative:webcellsalon\\models\\pageviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|c:\\users\\matve\\onedrive\\desktop\\\u0432\u0435\u0431-\u043A\u043F\\webcellsalon\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|solutionrelative:webcellsalon\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|c:\\users\\matve\\onedrive\\desktop\\\u0432\u0435\u0431-\u043A\u043F\\webcellsalon\\models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|solutionrelative:webcellsalon\\models\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|c:\\users\\matve\\onedrive\\desktop\\\u0432\u0435\u0431-\u043A\u043F\\webcellsalon\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|solutionrelative:webcellsalon\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|c:\\users\\matve\\onedrive\\desktop\\\u0432\u0435\u0431-\u043A\u043F\\webcellsalon\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|solutionrelative:webcellsalon\\controllers\\salescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|c:\\users\\matve\\onedrive\\desktop\\\u0432\u0435\u0431-\u043A\u043F\\webcellsalon\\services\\customerscopeddataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|solutionrelative:webcellsalon\\services\\customerscopeddataservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|c:\\users\\matve\\onedrive\\desktop\\\u0432\u0435\u0431-\u043A\u043F\\webcellsalon\\models\\querymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|solutionrelative:webcellsalon\\models\\querymodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|c:\\users\\matve\\onedrive\\desktop\\\u0432\u0435\u0431-\u043A\u043F\\webcellsalon\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|solutionrelative:webcellsalon\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|c:\\users\\matve\\onedrive\\desktop\\\u0432\u0435\u0431-\u043A\u043F\\webcellsalon\\views\\employees\\stats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|solutionrelative:webcellsalon\\views\\employees\\stats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|c:\\users\\matve\\onedrive\\desktop\\\u0432\u0435\u0431-\u043A\u043F\\webcellsalon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|solutionrelative:webcellsalon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|c:\\users\\matve\\onedrive\\desktop\\\u0432\u0435\u0431-\u043A\u043F\\webcellsalon\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|solutionrelative:webcellsalon\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86A6B8D2-C8BA-4284-89CD-85BD30C4AB7D}|WebCellSalon\\WebCellSalon.csproj|c:\\users\\matve\\onedrive\\desktop\\\u0432\u0435\u0431-\u043A\u043F\\webcellsalon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -70,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,104 +54,84 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebCellSalon\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebCellSalon\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-27T07:02:29.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Stats.cshtml",
+              "DocumentMoniker": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Views\\Employees\\Stats.cshtml",
+              "RelativeDocumentMoniker": "WebCellSalon\\Views\\Employees\\Stats.cshtml",
+              "ToolTip": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Views\\Employees\\Stats.cshtml",
+              "RelativeToolTip": "WebCellSalon\\Views\\Employees\\Stats.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-27T06:56:44.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebCellSalon\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebCellSalon\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-27T06:55:55.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "WebCellSalon\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "WebCellSalon\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAGEBAAAAAAAAAAAQwHsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-27T06:27:50.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Users.cshtml",
               "DocumentMoniker": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Views\\Admin\\Users.cshtml",
               "RelativeDocumentMoniker": "WebCellSalon\\Views\\Admin\\Users.cshtml",
               "ToolTip": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Views\\Admin\\Users.cshtml",
               "RelativeToolTip": "WebCellSalon\\Views\\Admin\\Users.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-05-24T17:14:32.681Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WebCellSalon\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WebCellSalon\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T16:55:11.132Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "WebCellSalon\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "WebCellSalon\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwCoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T16:40:19.056Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProfileController.cs",
-              "DocumentMoniker": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Controllers\\ProfileController.cs",
-              "RelativeDocumentMoniker": "WebCellSalon\\Controllers\\ProfileController.cs",
-              "ToolTip": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Controllers\\ProfileController.cs",
-              "RelativeToolTip": "WebCellSalon\\Controllers\\ProfileController.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA1wCwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T16:27:03.052Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "WebCellSalon\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Services\\AuthService.cs",
-              "RelativeToolTip": "WebCellSalon\\Services\\AuthService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAqwBUAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T15:48:51.537Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "PageViewModels.cs",
-              "DocumentMoniker": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Models\\PageViewModels.cs",
-              "RelativeDocumentMoniker": "WebCellSalon\\Models\\PageViewModels.cs",
-              "ToolTip": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Models\\PageViewModels.cs",
-              "RelativeToolTip": "WebCellSalon\\Models\\PageViewModels.cs",
-              "ViewState": "AgIAAKUAAAAAAAAAAAA7wCEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T15:48:03.447Z"
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\appsettings.json",
+              "RelativeDocumentMoniker": "WebCellSalon\\appsettings.json",
+              "ToolTip": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\appsettings.json",
+              "RelativeToolTip": "WebCellSalon\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-24T15:38:57.021Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "WebCellSalon\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "WebCellSalon\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAA0wDsAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T15:48:32.415Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "QueryModels.cs",
-              "DocumentMoniker": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Models\\QueryModels.cs",
-              "RelativeDocumentMoniker": "WebCellSalon\\Models\\QueryModels.cs",
-              "ToolTip": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Models\\QueryModels.cs",
-              "RelativeToolTip": "WebCellSalon\\Models\\QueryModels.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAA/wE0AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T15:49:41.487Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Views\\Profile\\Index.cshtml",
               "RelativeDocumentMoniker": "WebCellSalon\\Views\\Profile\\Index.cshtml",
@@ -192,66 +144,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Entities.cs",
-              "DocumentMoniker": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Models\\Entities.cs",
-              "RelativeDocumentMoniker": "WebCellSalon\\Models\\Entities.cs",
-              "ToolTip": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Models\\Entities.cs",
-              "RelativeToolTip": "WebCellSalon\\Models\\Entities.cs",
-              "ViewState": "AgIAACQBAAAAAAAAAIA2wDEBAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T15:44:18.417Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CustomerScopedDataService.cs",
-              "DocumentMoniker": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Services\\CustomerScopedDataService.cs",
-              "RelativeDocumentMoniker": "WebCellSalon\\Services\\CustomerScopedDataService.cs",
-              "ToolTip": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Services\\CustomerScopedDataService.cs",
-              "RelativeToolTip": "WebCellSalon\\Services\\CustomerScopedDataService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAuwCMAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T15:53:42.483Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SalesController.cs",
-              "DocumentMoniker": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Controllers\\SalesController.cs",
-              "RelativeDocumentMoniker": "WebCellSalon\\Controllers\\SalesController.cs",
-              "ToolTip": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Controllers\\SalesController.cs",
-              "RelativeToolTip": "WebCellSalon\\Controllers\\SalesController.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAewHQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T15:50:13.541Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "WebCellSalon\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "WebCellSalon\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-24T15:44:14.804Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\appsettings.json",
-              "RelativeDocumentMoniker": "WebCellSalon\\appsettings.json",
-              "ToolTip": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\appsettings.json",
-              "RelativeToolTip": "WebCellSalon\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-24T15:38:57.021Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\matve\\OneDrive\\Desktop\\\u0432\u0435\u0431-\u043A\u043F\\WebCellSalon\\Program.cs",
               "RelativeDocumentMoniker": "WebCellSalon\\Program.cs",
